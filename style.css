@@ -1,0 +1,146 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+header {
+  background: #ff8523;
+}
+
+#logo img {
+  padding: 2vw 0 0 5vw;
+}
+
+.main_navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 50%;
+  padding: 1vw 2vw 2.5vw 2vw;
+}
+
+.main_navigation a {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 1vw 4vw;
+  border: solid 1px white;
+  border-radius: 3px;
+}
+
+#page_content section {
+  font-family: Helvetica, Arial, sans-serif;
+  border-bottom: solid 2px #dddddd;
+}
+
+#page_content section h2 {
+  color: #1fabe5;
+  font-size: 3vw;
+}
+
+#page_content section p a {
+  color: #1fabe5;
+}
+
+#page_content section p {
+  padding-bottom: 2vw;
+}
+
+#page_content section h3 {
+  color: #1fabe5;
+}
+
+#page_content section ul {
+  margin: 1.5vw 1.5vw 5vw 1.5vw;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 98%;
+  table-layout: fixed;
+  margin-bottom: 4vw;
+}
+
+thead tr td {
+  background: #1fabe5;
+  color: white;
+  border: solid 1px #046c97;
+  padding: 1vw .5vw;
+}
+
+table tbody tr td {
+  border: solid 1px #1fabe5;
+  padding-left: 1.5vw;
+}
+
+table tbody tr td img {
+  width: 12vw;
+  height: auto;
+  padding: 1.5vw 1.5vw 2vw 0;
+}
+
+form {
+  background: #eee;
+  border-radius: .5vw;
+  overflow: hidden;
+  margin-bottom: 3vw;
+}
+
+.name {
+  background: #ff8523;
+  color: white;
+  font-size: 1.5vw;
+  margin: 1vw 1vw;
+  padding: 2% 5%;
+  border-radius: .5vw;
+}
+
+#first_name {
+  height: 3vw;
+  width: 31vw;
+  margin-right: 4vw;
+}
+
+#last_name {
+  height: 3vw;
+  width: 31vw;
+}
+
+.city_container {
+  margin: 2vw 1vw;
+}
+
+.bio {
+  margin: 2vw 1vw;
+}
+
+.bio label {
+  line-height: 3vw;
+}
+
+.bio textarea {
+  width: 98.5%;
+  height: 30vw;
+}
+
+#submit_button {
+  background: #1fabe5;
+  font-size: 2vw;
+  color: white;
+  width: 10vw;
+  height: 4vw;
+  border: 0;
+  border-radius: .5vw;
+  margin: 0 1.5vw 1.5vw 1.5vw;
+}
